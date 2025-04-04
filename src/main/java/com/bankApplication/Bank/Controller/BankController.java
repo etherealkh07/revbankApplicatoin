@@ -38,7 +38,7 @@ public class BankController {
     @DeleteMapping("/delete/{AccountNumber}")
     public void deleteBankUser(@PathVariable Long AccountNumber)
     {
-        bankServices.deleteBankUSer(AccountNumber);
+        bankServices.deleteBankUser(AccountNumber);
     }
 }
 
